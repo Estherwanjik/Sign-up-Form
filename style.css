@@ -1,5 +1,5 @@
 :root{
-    --color: #e6007e;
+    --color: #e6009e;
     --txt: rgb(185, 185, 185)
 }
 *{
@@ -9,7 +9,6 @@
     font-family: 'Poppins', sans-serif;
     color: var(--txt);
 
-    /* outline: 1px solid red; */
 }
 .content {
     width: 100vw;
@@ -29,11 +28,11 @@
 }
 .logo{
     height: auto;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #000022;
     position: relative;
     top: 20vh;
     gap: 1vw;
-    padding: 15px 0;
+    padding: 10px 0;
     justify-content: center;
     align-items: center;
 }
@@ -47,7 +46,7 @@ h1{
 
 .right{
     width: 60vw;
-    background-color: #000000;
+    background-color: #000022;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -69,8 +68,7 @@ h1{
     margin: 40px 0 80px;
 }
 .form{
-    background-color: rgb(6, 6, 6);
-    box-shadow: 0 10px 20px -2px rgb(22, 22, 22);
+    background-color: #000022;
     display: flex;
     flex-flow: row wrap;
     gap: 20px;
