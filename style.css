@@ -114,7 +114,6 @@ button{
 button:hover{
     background-color: var(--color);
     color: black;
-    
 }
 .log-in{
     display: flex;
